@@ -1,5 +1,5 @@
 type Query {
-    pets: [Pet]
+    pets: [Pet]!
 }
 
 type Pet {

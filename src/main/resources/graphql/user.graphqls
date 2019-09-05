@@ -1,0 +1,10 @@
+extend type Query {
+    findAllUsers: [User]!
+    findUsersById(id: Int): [User]!
+}
+
+type User {
+    id: Int
+    username: String
+    age: Int
+}

@@ -6,20 +6,14 @@ import lombok.RequiredArgsConstructor;
 import springboot.graphql.enums.Animal;
 
 @Data
+@RequiredArgsConstructor
 public class Pet {
 
     private long id;
 
-    private String name;
+    private final String name;
 
-    private Animal type;
+    private final Animal type;
 
-    private int age;
-
-    public Pet(long id, String name, Animal type, int age) {
-        this.id = id;
-        this.name = name;
-        this.type = type;
-        this.age = age;
-    }
+    private final int age;
 }
