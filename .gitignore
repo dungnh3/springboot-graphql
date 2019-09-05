@@ -1,2 +1,10 @@
 
 src/main/resources/application.properties
+
+.idea/libraries/
+
+target/
+
+.idea/
+
+graphql.iml
