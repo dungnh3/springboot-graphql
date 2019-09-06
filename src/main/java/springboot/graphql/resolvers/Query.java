@@ -18,7 +18,8 @@ public class Query implements GraphQLQueryResolver {
         List<Pet> pets = new ArrayList<>();
         pets = Arrays.asList(
                 new Pet("Pet-1", Animal.DOG, 5),
-                new Pet("Pet-2", Animal.CAT, 4)
+                new Pet("Pet-2", Animal.CAT, 4),
+                new Pet("Pet-3", Animal.CAT, 4)
         );
         return pets;
     }
